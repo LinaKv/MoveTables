@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafc;
+    color: #322551;
+}
+
+.container,
+.settings,
+.buttonsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid #322551;
+    border-radius: 0.6em;
+}
+
+.settings {
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    background-color: white;
+    border-radius: 0.6em;
+    justify-content: space-around;
+}
+
+.settingsWrapper {
+    width: 300px;
+    height: 600px;
+}
+
+.buttonsWrapper {
+    gap: 10px;
+}
+
+.buttonDownload,
+.buttonDelete {
+    height: 40px;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0.6em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buttonDownload {
+    width: 200px;
+    border: 2px solid #ffa96b;
+    color: #ffa96b;
+}
+
+.buttonDownload:hover {
+    box-shadow: 0 0 40px 40px #ffa96b inset;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    color: whitesmoke;
+}
+
+.buttonDelete {
+    width: 100%;
+    border: 2px solid tomato;
+    color: tomato;
+}
+
+.buttonDelete:hover {
+    box-shadow: 0 0 40px 40px tomato inset;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    color: whitesmoke;
+}
+
+.hideElement {
+    display: none;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    border-left: 2px solid #322551;
+    position: relative;
+    background-color: #f3f4f9;
+    border-radius: 0.6em;
+}
+
+.box,
+.boxWithDelete {
+    position: absolute;
+    padding: 0.5rem 1rem;
+    cursor: move;
+}
+
+.boxWithDelete {
+    background-color: white;
+    border-radius: 0.6em;
+    border: 2px solid #322551;
+}
+
+.chair {
+    width: 70px;
+    height: 70px;
+}
+
+.table {
+    width: 100px;
+    height: 120px;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.titleWrapper {
+    cursor: pointer;
+    background-color: #f3f4f9;
+    border: 2px solid #322551;
+    border-radius: 0.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.tableSettings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 0.6em;
+}
+
+.tableSettingsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.example {
+    width: 50px;
+    height: 50px;
+}
+
+.appNaming {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.color {
+    color: #ffa96b;
+    font-weight: 700;
+}
+
+.clueText {
+    margin: 5px;
+    color: #b3b3b5;
+}
