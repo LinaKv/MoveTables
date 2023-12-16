@@ -1,8 +1,31 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Stack:
+JavaScript, CSS, React, file-saver, react-dnd, uuid
 
-Currently, two official plugins are available:
+### Посмотреть:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Notes:
+При деплое теряется функция скачивания готового файла в связи с площадкой
+
+### Чтобы запустить:
+npm i
+
+npm run dev
+
+### Функционал:
+1)Добавление новых столов из списка
+
+2)Перемещение добавленных объектов в пределах доски
+
+3)Удаление лишних объектов
+
+4)Выгрузка данных (id, координаты) в формет CVS
+
+### Скришот:
+![image](https://github.com/LinaKv/MoveTables/assets/107919324/f929bc5f-8d66-498d-b4bf-d1a1849cbedd)
+
+![image](https://github.com/LinaKv/MoveTables/assets/107919324/e525159d-1570-4ab7-9ce5-b91d02c9565e)
+
+
+
