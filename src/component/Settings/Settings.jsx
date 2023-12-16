@@ -15,7 +15,7 @@ function Settings({ addTable, dataInfo }) {
         <div className="settings">
             <div className="tableSettingsWrapper">
                 {variants.map((type) => (
-                    <Control type={type} img={`src/assets/tableFor${type}.svg`} addTable={addTable} key={type} />
+                    <Control type={type} img={`./assets/tableFor${type}.svg`} addTable={addTable} key={type} />
                 ))}
             </div>
             <button onClick={handleDownload} className="buttonDownload">

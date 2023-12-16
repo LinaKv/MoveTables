@@ -39,11 +39,11 @@ export const Container = () => {
     function renderElement(param) {
         switch (param) {
             case 'Table6':
-                return <img src="src\assets\tableFor6.svg" alt="" className="table" />;
+                return <img src="./assets/tableFor6.svg" alt="" className="table" />;
             case 'Table4':
-                return <img src="src\assets\tableFor4.svg" alt="" className="table" />;
+                return <img src="./assets/tableFor4.svg" alt="" className="table" />;
             case 'Table2':
-                return <img src="src\assets\tableFor2.svg" alt="" className="table" />;
+                return <img src="./assets/tableFor2.svg" alt="" className="table" />;
             default:
                 return null;
         }
